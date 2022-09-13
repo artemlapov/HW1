@@ -33,6 +33,7 @@
                         <constraints>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0N7-Dc-L2V"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="237" id="8Vm-GA-yhD"/>
+                            <constraint firstItem="QX2-BL-dyH" firstAttribute="trailing" secondItem="IaE-3D-rzq" secondAttribute="trailing" id="ARp-GI-dFb"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="BEY-Qa-xVW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IaE-3D-rzq" secondAttribute="trailing" constant="20" id="TPb-AJ-ppl"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XDa-lB-Lg4"/>
