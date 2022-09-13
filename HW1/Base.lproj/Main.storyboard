@@ -23,23 +23,29 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QX2-BL-dyH">
                                 <rect key="frame" x="20" y="508" width="390" height="390"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QX2-BL-dyH" secondAttribute="height" multiplier="1:1" id="fbM-F8-Gcg"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="5hJ-9s-oxh"/>
+                            <constraint firstItem="IaE-3D-rzq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0N7-Dc-L2V"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="237" id="8Vm-GA-yhD"/>
+                            <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="BEY-Qa-xVW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IaE-3D-rzq" secondAttribute="trailing" constant="20" id="TPb-AJ-ppl"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XDa-lB-Lg4"/>
-                            <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="XgQ-Tm-7pz"/>
-                            <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="Yg9-2b-r3n"/>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="leading" secondItem="QX2-BL-dyH" secondAttribute="leading" id="aAG-fm-zfH"/>
+                            <constraint firstItem="QX2-BL-dyH" firstAttribute="top" secondItem="IaE-3D-rzq" secondAttribute="bottom" constant="59" id="fFI-QF-E76"/>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hBn-PO-jPr"/>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="i5W-2q-7Ka"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="height" secondItem="IaE-3D-rzq" secondAttribute="height" id="kFW-x6-gOB"/>
                             <constraint firstItem="QX2-BL-dyH" firstAttribute="width" secondItem="IaE-3D-rzq" secondAttribute="width" id="neH-CP-qbH"/>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="o76-oH-MHg"/>
                             <constraint firstItem="IaE-3D-rzq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-212" id="oTD-jZ-XM0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QX2-BL-dyH" secondAttribute="trailing" constant="20" id="qG1-0b-KOl"/>
+                            <constraint firstItem="QX2-BL-dyH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="u5S-0E-i6Z"/>
                         </constraints>
                     </view>
                 </viewController>
